@@ -10,7 +10,7 @@ def solution(answers):
         for a in answers:            
             if i == 0:
                 if a == person_answer:
-                    studnet[i] += 1
+                    student[i] += 1
                     person_answer += 1
                 else:
                     person_answer += 1
@@ -23,7 +23,7 @@ def solution(answers):
                         person_answer = 1
                         
                     if a == person_answer:
-                        studnet[i] += 1
+                        student[i] += 1
                     
                     if person_answer == 1:
                         person_answer += 2
@@ -41,7 +41,7 @@ def solution(answers):
             elif i == 2:
                 
                 if person_answer == a:
-                    studnet[i] += 1
+                    student[i] += 1
                     if count == 1:
                         count += 1
                     elif count == 2:
