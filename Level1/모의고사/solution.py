@@ -1,70 +1,39 @@
 def solution(answers):
     answer = []
-    
-    student = [0,0,0]
-    for i in range(3):
+
+    one = [1, 2, 3, 4, 5]
+    two = [2, 1, 2, 3, 2, 4, 2, 5]
+    three = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
+
+    one_index = 0
+    two_index = 0
+    three_index = 0
+
+    count = [0, 0, 0]
+
+    for i in answers:
+        if one[one_index] == i:
+            count[0] += 1
+        if two[two_index] == i:
+            count[1] += 1
+        if three[three_index] == i:
+            count[2] += 1
         
-        person_answer = i+1
+        one_index += 1
+        if one_index == len(one):
+            one_index = 0
         
-        count = 1
-        for a in answers:            
-            if i == 0:
-                if a == person_answer:
-                    student[i] += 1
-                    person_answer += 1
-                else:
-                    person_answer += 1
-                
-                if person_answer == 6:
-                    person_answer = 1
-            elif i == 1:
-                if count % 2 != 0:
-                    if person_answer == 2:
-                        person_answer = 1
-                        
-                    if a == person_answer:
-                        student[i] += 1
-                    
-                    if person_answer == 1:
-                        person_answer += 2
-                    else:
-                        person_answer += 1
-                    
-                    if person_answer > 5:
-                        person_answer = 1
-                    
-                    count += 1
-                else:
-                    if a == 2:
-                        student[i] += 1
-                    count += 1
-            elif i == 2:
-                
-                if person_answer == a:
-                    student[i] += 1
-                    if count == 1:
-                        count += 1
-                    elif count == 2:
-                        count = 1
-                        if person_answer == 3:
-                            person_answer = 1
-                        else:
-                            person_answer += 1
-                        
-                        if person_answer > 5:
-                            person_answer = 3
-                else:
-                    if count == 1:
-                        count += 1
-                    elif count == 2:
-                        count = 1
-                        if person_answer == 3:
-                            person_answer = 1
-                        else:
-                            person_answer += 1
-                        
-                        if person_answer > 5:
-                            person_answer = 3    
-    
-    answer.sort()
+        two_index += 1
+        if two_index == len(two):
+            two_index = 0
+
+        three_index += 1
+        if three_index == len(three):
+            three_index = 0
+
+    max_person = max(count)
+    for i in range(len(count)):
+        if max_person == count[i]:
+            answer.append(i + 1)
+
     return answer
