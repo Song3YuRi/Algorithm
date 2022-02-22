@@ -34,4 +34,4 @@
 
 2월 21일 월요일
 
-- [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)
+- [거리두기 확인하기](https://github.com/Song3YuRi/Algorithm/tree/master/Level2/%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0)
