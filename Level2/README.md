@@ -35,3 +35,23 @@
 2월 21일 월요일
 
 - [거리두기 확인하기](https://github.com/Song3YuRi/Algorithm/tree/master/Level2/%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0)
+
+2월 22일 화요일
+
+- [수식 최대화](https://github.com/Song3YuRi/Algorithm/tree/master/Level2/%EC%88%98%EC%8B%9D%20%EC%B5%9C%EB%8C%80%ED%99%94)
+
+2월 23일 수요일
+
+- [튜플](https://github.com/Song3YuRi/Algorithm/tree/master/Level2/%ED%8A%9C%ED%94%8C)
+
+2월 24일 목요일
+
+- [빛의 경로 사이클]
+
+2월 25일 금요일
+
+- [전화번호 목록](https://github.com/Song3YuRi/Algorithm/tree/master/Level2/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D)
+
+2월 26일 토요일
+
+- [프린터](https://github.com/Song3YuRi/Algorithm/tree/master/Level2/%ED%94%84%EB%A6%B0%ED%84%B0)
